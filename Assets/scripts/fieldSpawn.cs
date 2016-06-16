@@ -10,7 +10,7 @@ public class fieldSpawn : MonoBehaviour {
         {
             for(int j = 0; j < size; j++)
             {
-                Instantiate(tile, new Vector3(100-i * 5, 0, 100-j * 5),Quaternion.identity);
+                Instantiate(tile, new Vector3(10-i , 0, 10-j ),Quaternion.identity);
             }
         }
 	}
